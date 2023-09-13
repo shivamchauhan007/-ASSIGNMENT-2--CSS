@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 1250px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pore{
+    position: relative;
+}
+.col20{
+    width: 80%;
+}
+/* .................................section-1.......................................... */
+
+.sec1{
+    background: linear-gradient(#00000085,#00000085),url(./bg\ img.png);
+    height:900px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 86%, 50% 100%, 0 85%, 0 0);
+}
+img{
+    width: 100%;
+}
+nav{
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.logo{
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+a:hover{
+    color:  rgb(237, 59, 59);
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 8px;
+}
+.text{
+    position: absolute;
+    top: 350px; 
+}
+.slogen{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.title{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0 70px 0;
+}
+.subtitle{
+    color: white;
+    text-align: center;
+    width: 35%;
+    margin: 0 auto;
+    opacity: .8;
+}
+.btn{
+    justify-content: center;
+    margin-top: 40px;
+}
+.button1 button{
+    color: white;
+    background-color: rgb(237, 59, 59);
+    width: 200px;
+    height: 40px;
+    border: none;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.button2 button{
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-color: white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.design{
+    position: absolute;
+    left: 560px;
+    top: 480px;
+}
+.right-arow button i{
+    color: white; 
+    font-size: 20px;
+}
+.right-arow button{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(170, 167, 167, 0.801);
+    border: none;
+    border-radius: 3px;
+    position: absolute;
+    right: 50px;
+    top: 440px;
+    z-index: 1 ;
+}
+.left-arow button i{
+    color: white; 
+    font-size: 20px;
+}
+.left-arow button{
+    z-index: 1 ;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(170, 167, 167, 0.801);
+    border: none;
+    border-radius: 3px;
+    position: absolute;
+    left: 50px;
+    top: 440px;
+}
+.left-arow button:hover{
+    background-color:rgb(237, 59, 59);
+}
+.right-arow button:hover{
+    background-color: rgb(237, 59, 59);
+}
+/* .................................section-2.......................................... */
+
+.down-icon{
+    position: absolute;
+    width: 60px;
+    left: 640px;
+    top: -140px;
+}
+.cart{
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+
+
